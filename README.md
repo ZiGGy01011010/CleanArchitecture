@@ -18,17 +18,7 @@ The easiest way to get started is to install the [.NET template](https://www.nug
 dotnet new install Clean.Architecture.Solution.Template::8.0.0
 ```
 
-Once installed, create a new solution using the template. You can choose to use Angular, React, or create a Web API-only solution. Specify the client framework using the `-cf` or `--client-framework` option, and provide the output directory where your project will be created. Here are some examples:
-
-To create a Single-Page Application (SPA) with Angular and ASP.NET Core:
-```bash
-dotnet new ca-sln --client-framework Angular --output YourProjectName
-```
-
-To create a SPA with React and ASP.NET Core:
-```bash
-dotnet new ca-sln -cf React -o YourProjectName
-```
+Once installed, create a new solution using the template. Here are some examples:
 
 To create a ASP.NET Core Web API-only solution:
 ```bash
@@ -91,19 +81,13 @@ The template includes a full CI/CD pipeline. The pipeline is responsible for bui
 
 * [ASP.NET Core 8](https://docs.microsoft.com/en-us/aspnet/core/introduction-to-aspnet-core)
 * [Entity Framework Core 8](https://docs.microsoft.com/en-us/ef/core/)
-* [Angular 15](https://angular.io/) or [React 18](https://react.dev/)
 * [MediatR](https://github.com/jbogard/MediatR)
-* [AutoMapper](https://automapper.org/)
+* [Mapperly](https://www.nuget.org/packages/Riok.Mapperly/)
 * [FluentValidation](https://fluentvalidation.net/)
-* [NUnit](https://nunit.org/), [FluentAssertions](https://fluentassertions.com/), [Moq](https://github.com/moq) & [Respawn](https://github.com/jbogard/Respawn)
+* [NUnit](https://nunit.org/), [FluentAssertions](https://fluentassertions.com/), [NSubstitute](https://nsubstitute.github.io/) & [Respawn](https://github.com/jbogard/Respawn)
 
 ## Versions
-The main branch is now on .NET 8.0. The following previous versions are available:
-
-* [7.0](https://github.com/jasontaylordev/CleanArchitecture/tree/net7.0)
-* [6.0](https://github.com/jasontaylordev/CleanArchitecture/tree/net6.0)
-* [5.0](https://github.com/jasontaylordev/CleanArchitecture/tree/net5.0)
-* [3.1](https://github.com/jasontaylordev/CleanArchitecture/tree/netcore3.1)
+The main branch is now on .NET 8.0.
 
 ## Learn More
 

@@ -8,18 +8,15 @@
     <authors>JasonTaylorDev</authors>
     <description>Clean Architecture Solution Template for .NET 8.</description>
     <summary>
-      A Clean Architecture Solution Template for creating apps using Angular, React, or Web API only with ASP.NET Core.
+      A Clean Architecture Solution Template for creating Web API only with ASP.NET Core.
     </summary>
-    <releaseNotes>
-      Upgrade NSwag and other packages to latest versions.
-    </releaseNotes>
 
     <projectUrl>https://github.com/JasonTaylorDev/CleanArchitecture</projectUrl>
     <repository type="git" url="https://github.com/JasonTaylorDev/CleanArchitecture.git" branch="main" />
 
     <license type="expression">MIT</license>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <tags>clean-architecture project template csharp dotnet angular react</tags>
+    <tags>clean-architecture project template csharp dotnet</tags>
     <icon>icon.png</icon>
     <readme>README.md</readme>
 
